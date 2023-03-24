@@ -35,12 +35,13 @@ Route::get('/', function () {
 });
 
 
-    Route::get('/products',[AdminController::class, 'products'])->name('products');
-    Route::get('/product-details',[AdminController::class, 'product_details'])->name('product_details');
+Route::get('/products', [AdminController::class, 'products'])->name('products');
+Route::get('/product-details', [AdminController::class, 'product_details'])->name('product_details');
 
-Route::controller(UserController::class)->group(function(){
-    Route::get('/login','loginpage')->name('loginpage');
-    Route::post('/login','login')->name('login'); //controls the log in auth
-    Route::get('/logout','logout')->name('logout'); // logout
-    Route::get('/login/registration','registration')->name('registration');
+Route::controller(UserController::class)->group(function () {
+    Route::get('/login', 'loginpage')->name('loginpage');
+    Route::post('/login', 'login')->name('login'); //controls the log in auth
+    Route::get('/logout', 'logout')->name('logout'); // logout
+    Route::get('/login/registration', 'registration')->name('registration');
+    Route::get('/cart', 'addToCart');
 });
