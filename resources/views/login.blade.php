@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 @include('layout.css')
-@include('partials.header')
+@include('layout.navbar')
 <section id="form">
     <!--form-->
     <div class="container">

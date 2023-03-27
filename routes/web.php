@@ -36,6 +36,7 @@ Route::get('/', function () {
 
 
 Route::get('/products', [AdminController::class, 'products'])->name('products');
+Route::get('/home', [ItemController::class, 'items']);
 Route::get('/product-details', [AdminController::class, 'product_details'])->name('product_details');
 
 Route::controller(UserController::class)->group(function () {
