@@ -72,10 +72,10 @@ class UserController extends Controller
     return redirect('/')->with('success', 'Logout Success!');
   }
 
-  public function addToCart(Request $request)
+  public function addToCart()
   {
     // $request->session()->put('cart', $request->input('id'));
     // return redirect('/')->with('success','Added to Cart!');
-    view('/cart');
+    return view('/cart');
   }
 }
