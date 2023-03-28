@@ -15,11 +15,11 @@
                 <div class="col-sm-6">
                     <div class="social-icons pull-right">
                         <ul class="nav navbar-nav">
-                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-teamspeak"></i></a></li>
+                            <li><a href="/facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="/twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="/linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+
+
                         </ul>
                     </div>
                 </div>
@@ -37,27 +37,9 @@
                         <a href="/"><img src="admin/images/home/logo.png" alt="" /></a>
                     </div>
                     <div class="btn-group pull-right">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
-                                USA
-                                <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Canada</a></li>
-                                <li><a href="#">UK</a></li>
-                            </ul>
-                        </div>
 
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
-                                DOLLAR
-                                <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Canadian Dollar</a></li>
-                                <li><a href="#">Pound</a></li>
-                            </ul>
-                        </div>
+
+
                     </div>
                 </div>
                 <div class="col-sm-8">

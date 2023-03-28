@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 
 //Edit - for edit data
-//Store - store data 
+//Store - store data
 // Update - update data
 // Delete - delete data
 // login - for login route
@@ -32,7 +32,19 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
+
 });
+
+Route::get('/facebook', function () {
+    return redirect('https://www.facebook.com/devteamph');
+});
+Route::get('/twitter', function () {
+    return redirect('https://twitter.com/devteamuk');
+});
+Route::get('/linkedin', function () {
+    return redirect('https://www.linkedin.com/company/devteamoutsourcing/mycompany');
+});
+
 
 
 Route::get('/products', [AdminController::class, 'products'])->name('products');
@@ -46,3 +58,5 @@ Route::controller(UserController::class)->group(function () {
     Route::get('/login/registration', 'registration')->name('registration');
     Route::get('/cart', 'addToCart');
 });
+
+
