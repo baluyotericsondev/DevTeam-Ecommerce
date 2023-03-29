@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background:;
+  /* background:; */
   position: relative;
   font-weight:400px;
 }
@@ -834,6 +834,14 @@ h2.title:before{
 	overflow:hidden;
 }
 
+.features_items img {
+    float: left;
+    width:  100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 20px;
+}
 
 h2.title {
   color: #FE980F;
@@ -851,6 +859,10 @@ h2.title {
 	overflow: hidden;
 	margin-bottom:30px;
 }
+
+/* img {
+  height: 100%;
+} */
 
 .single-products {
   position: relative;
@@ -900,7 +912,7 @@ h2.title {
   transition: height 500ms ease 0s;
   width: 100%;
   display: block;
-  opacity:;
+  /* opacity:; */
 }
 
 .single-products:hover .product-overlay {
@@ -1065,8 +1077,8 @@ h2.title {
   background: #ccccc6;
 }
 
-.recommended_items  h2 {
-}
+/* .recommended_items  h2 {
+} */
 
 .our_partners{
   overflow:hidden;
@@ -1433,13 +1445,13 @@ h2.title {
   overflow: hidden;
 }
 
-.login-form {
+/* .login-form {
 
-}
+} */
 
-.signup-form {
+/* .signup-form {
 
-}
+} */
 
 .login-form h2, .signup-form h2 {
   color: #696763;
@@ -1460,6 +1472,20 @@ h2.title {
   font-weight: 300;
   height: 40px;
   margin-bottom: 10px;
+  outline: medium none;
+  padding-left: 10px;
+  width: 100%;
+}
+.signup-form form select {
+  background: #F0F0E9;
+  border: medium none;
+  color: #696763;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  height: 40px;
+  margin-bottom: 10px; 
   outline: medium none;
   padding-left: 10px;
   width: 100%;
@@ -1490,9 +1516,9 @@ h2.title {
   padding: 6px 25px;
 }
 
-.login-form label{
+/* .login-form label{
 
-}
+} */
 
 
 .login-form label input {
@@ -1751,8 +1777,8 @@ h2.title {
   margin-right: 10px
 }
 
-.user_info > li > span {
-}
+/* .user_info > li > span {
+} */
 
 .user_info input, select, textarea {
   background: #F0F0E9;
@@ -2001,8 +2027,8 @@ h2.title {
   margin-bottom: 17px;
 }
 
-.single-blog-post > a {
-}
+/* .single-blog-post > a {
+} */
 
 .blog-post-area 
 .single-blog-post a img {

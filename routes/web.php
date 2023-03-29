@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ItemController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -30,14 +31,17 @@ use Illuminate\Support\Facades\Route;
 // home - for home route
 // index - for index route
 
-Route::get('/', function () {
-    return view('home');
-});
-
+// Route::get('/', function () {
+//     return view('home');
+// });
 
 Route::get('/products', [AdminController::class, 'products'])->name('products');
-Route::get('/home', [ItemController::class, 'items']);
+// Route::get('/home', [ItemController::class, 'items']);
 Route::get('/product-details', [AdminController::class, 'product_details'])->name('product_details');
+Route::get('/add-product', [AdminController::class, 'create_product']);
+Route::post('/add-product', [AdminController::class, 'store_product']);
+Route::get('/home', [AdminController::class, 'show_product']);
+Route::get('/', [AdminController::class, 'show_product']);
 
 Route::controller(UserController::class)->group(function () {
     Route::get('/login', 'loginpage')->name('loginpage');

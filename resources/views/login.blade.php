@@ -58,6 +58,7 @@
                     @csrf
 
                     <input type="text" placeholder="Name" name="name" {{ old('name') }} autocomplete="off" />
+                    <input type="hidden" name="user_type" />
 
                     <input type="email" placeholder="Email Address" name="email" {{ old('email') }}
                         autocomplete="off" />

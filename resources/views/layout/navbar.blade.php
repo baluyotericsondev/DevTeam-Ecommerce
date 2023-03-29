@@ -15,7 +15,7 @@
                 <div class="col-sm-6">
                     <div class="social-icons pull-right">
                         <ul class="nav navbar-nav">
-                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="/facebook"><i class="fa-brands fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
                             <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
@@ -73,6 +73,14 @@
                             <li><a href="/checkout"><i class="fa fa-crosshairs"></i> Checkout</a></li>
 
                             @auth
+                                @if (auth()->user()->user_type == 'admin')
+                                    <li><a href="/add-product"><i class="fa-solid fa-square-plus"></i>
+                                            Admin Dashboard</a>
+                                    </li>
+                                @endif
+                                {{-- <li><a href="/add-product"><i class="fa-solid fa-square-plus"></i>
+                                        Admin Dashboard</a>
+                                </li> --}}
                                 <li>
                                     <a href="/cart"><i class="fa fa-shopping-cart"></i> Cart</a>
                                 </li>
