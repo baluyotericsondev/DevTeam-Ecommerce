@@ -6,74 +6,74 @@
                 <div class="col-sm-2">
                     <div class="companyinfo">
                         <h2><span>e</span>-shopper</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p>
+                        <p>E-commerce platform with fast delivery and vast selection</p>
                     </div>
                 </div>
                 <div class="col-sm-7">
                     <div class="col-sm-3">
                         <div class="video-gallery text-center">
-                            <a href="#">
+                            <a href="https://www.youtube.com/watch?v=ouwBoBjqjwk">
                                 <div class="iframe-img">
-                                    <img src="admin/images/home/iframe1.png" alt="" />
+                                    <img src="\admin\images\home\shopeethumbnail.jpg" alt="" />
                                 </div>
                                 <div class="overlay-icon">
                                     <i class="fa fa-play-circle-o"></i>
                                 </div>
                             </a>
-                            <p>Circle of Hands</p>
-                            <h2>24 DEC 2014</h2>
+                            <p>E-shopper Mega Sale</p>
+                            <h2>March 15 2023</h2>
                         </div>
                     </div>
 
                     <div class="col-sm-3">
                         <div class="video-gallery text-center">
-                            <a href="#">
+                            <a href="https://www.youtube.com/watch?v=jCnSCEZow1U">
                                 <div class="iframe-img">
-                                    <img src="admin/images/home/iframe2.png" alt="" />
+                                    <img src="admin/images/home/marian.jpg" alt="" />
                                 </div>
                                 <div class="overlay-icon">
                                     <i class="fa fa-play-circle-o"></i>
                                 </div>
                             </a>
-                            <p>Circle of Hands</p>
-                            <h2>24 DEC 2014</h2>
+                            <p>4.4 April Sale</p>
+                            <h2>April 4 2023</h2>
                         </div>
                     </div>
 
                     <div class="col-sm-3">
                         <div class="video-gallery text-center">
-                            <a href="#">
+                            <a href="https://www.youtube.com/watch?v=hfBk1APTnfw">
                                 <div class="iframe-img">
-                                    <img src="admin/images/home/iframe3.png" alt="" />
+                                    <img src="admin/images/home/Aprilpromo.jpg" alt="" />
                                 </div>
                                 <div class="overlay-icon">
                                     <i class="fa fa-play-circle-o"></i>
                                 </div>
                             </a>
-                            <p>Circle of Hands</p>
-                            <h2>24 DEC 2014</h2>
+                            <p>Payday Sale Na</p>
+                            <h2>April 15 2023</h2>
                         </div>
                     </div>
 
                     <div class="col-sm-3">
                         <div class="video-gallery text-center">
-                            <a href="#">
+                            <a href="https://www.youtube.com/watch?v=IQ2rXG13VvA">
                                 <div class="iframe-img">
-                                    <img src="admin/images/home/iframe4.png" alt="" />
+                                    <img src="admin/images/home/mayday.jpg" alt="" />
                                 </div>
                                 <div class="overlay-icon">
                                     <i class="fa fa-play-circle-o"></i>
                                 </div>
                             </a>
-                            <p>Circle of Hands</p>
-                            <h2>24 DEC 2014</h2>
+                            <p>Payday Sale na</p>
+                            <h2>May 15 2023</h2>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-3">
                     <div class="address">
                         <img src="admin/images/home/map.png" alt="" />
-                        <p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
+                        <p>San Pedro,Laguna Reg. IV-A(CALABARZON)</p>
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@
     <div class="footer-widget">
         <div class="container">
             <div class="row">
-                <div class="col-sm-2">
+                <div class="col-sm-3">
                     <div class="single-widget">
                         <h2>Service</h2>
                         <ul class="nav nav-pills nav-stacked">
@@ -95,31 +95,20 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-3">
                     <div class="single-widget">
-                        <h2>Quock Shop</h2>
+                        <h2>Quick Shop</h2>
                         <ul class="nav nav-pills nav-stacked">
                             <li><a href="#">T-Shirt</a></li>
                             <li><a href="#">Mens</a></li>
                             <li><a href="#">Womens</a></li>
-                            <li><a href="#">Gift Cards</a></li>
+
                             <li><a href="#">Shoes</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-2">
-                    <div class="single-widget">
-                        <h2>Policies</h2>
-                        <ul class="nav nav-pills nav-stacked">
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Privecy Policy</a></li>
-                            <li><a href="#">Refund Policy</a></li>
-                            <li><a href="#">Billing System</a></li>
-                            <li><a href="#">Ticket System</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-2">
+
+                <div class="col-sm-3">
                     <div class="single-widget">
                         <h2>About Shopper</h2>
                         <ul class="nav nav-pills nav-stacked">
@@ -131,7 +120,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-3 col-sm-offset-1">
+                <div class="col-sm-2">
                     <div class="single-widget">
                         <h2>About Shopper</h2>
                         <form action="#" class="searchform">
@@ -150,9 +139,9 @@
     <div class="footer-bottom">
         <div class="container">
             <div class="row">
-                <p class="pull-left">Copyright © 2013 E-SHOPPER Inc. All rights reserved.</p>
+                <p class="pull-left">Copyright © 2023 DEVTEAM INTERN Inc. All rights reserved.</p>
                 <p class="pull-right">Designed by <span><a target="_blank"
-                            href="http://www.themeum.com">Themeum</a></span></p>
+                            href="http://www.devteam.com">Devteam Intern</a></span></p>
             </div>
         </div>
     </div>
