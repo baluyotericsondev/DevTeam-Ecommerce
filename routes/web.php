@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ItemController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -30,26 +31,13 @@ use Illuminate\Support\Facades\Route;
 // home - for home route
 // index - for index route
 
-Route::get('/', function () {
-    return view('home');
+// Route::get('/', function () {
+//     return view('home');
+// });
 
+    Route::get('/admin-tables', 'admin_tables');
+    Route::post('/admin-tables', 'admin_tables');
 });
-
-Route::get('/facebook', function () {
-    return redirect('https://www.facebook.com/devteamph');
-});
-Route::get('/twitter', function () {
-    return redirect('https://twitter.com/devteamuk');
-});
-Route::get('/linkedin', function () {
-    return redirect('https://www.linkedin.com/company/devteamoutsourcing/mycompany');
-});
-
-
-
-Route::get('/products', [AdminController::class, 'products'])->name('products');
-Route::get('/home', [ItemController::class, 'items']);
-Route::get('/product-details', [AdminController::class, 'product_details'])->name('product_details');
 
 Route::controller(UserController::class)->group(function () {
     Route::get('/login', 'loginpage')->name('loginpage');
