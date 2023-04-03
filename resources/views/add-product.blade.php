@@ -1,5 +1,12 @@
 @include('layout.css')
 @include('layout.navbar')
+@if (session()->has('success'))
+    <div class="col-12">
+        <div class="alert alert-success" x-data="{ show: true }" x-show="show" x-init="setTimeout(() => show = false, 3000)">
+            {{ session()->get('success') }}
+        </div>
+    </div>
+@endif
 <section>
     <div style="display:flex; justify-content: center;">
         <div class="col-sm-3">

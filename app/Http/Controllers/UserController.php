@@ -18,6 +18,10 @@ class UserController extends Controller
   {
     return view('home');
   }
+
+  public function checkUser()
+  {
+  }
   public function login(Request $request)
   {
     $request->validate([
@@ -32,7 +36,11 @@ class UserController extends Controller
     //gets the authenticated user name
     Auth::login($user);
     $user = auth()->user()->name;
-    return redirect('/')->with('success', 'Login Success!');
+    if (auth()->user()->user_type == 'admin') {
+      return redirect(route('admin-dashboard'));
+    } else {
+      return redirect(route('home'))->with('success', 'Welcome ' . $user);
+    }
   }
   public function registration(Request $request, User $user)
   {
